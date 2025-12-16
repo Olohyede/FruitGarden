@@ -4,7 +4,7 @@ A modern, responsive front-end web application showcasing fresh fruits. Built wi
 Demo
 
 
-Live demo: []
+Live demo: [https://fruitgarden-olohyede.netlify.app/]
 
 Features
 
