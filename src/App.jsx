@@ -18,7 +18,9 @@ const App = () => {
         <Banner />
         <Banner2 />
         <Banner3 />
+        <div className='grow'></div>
         <Footer />
+    
         
       </main>
     </>
