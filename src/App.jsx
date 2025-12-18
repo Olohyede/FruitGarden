@@ -18,7 +18,7 @@ const App = () => {
         <Banner />
         <Banner2 />
         <Banner3 />
-        <div className='grow'></div>
+        {/* <div className='grow'></div> */}
         <Footer />
     
         

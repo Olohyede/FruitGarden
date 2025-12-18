@@ -8,17 +8,17 @@ const Footer = () => {
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1}}
     transition={{ duration: 1, delay: 0.2 }}
-    className='container max-w-7xl mx-auto px-8 flex justify-between items-center'>
+    className='container max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center'>
 
         {/* Logo section */}
-        <div className='text-2xl flex items-center gap-2 font-bold uppercase'>
+        <div className='text-lg md:text-2xl flex items-center gap-1 md:gap-2 font-bold uppercase'>
             <p className="text-[#de2c4d]">Fruit</p>
             <p className='text-[#fb923c]'>Garden</p>
             <FaLeaf className='text-green-500' />
         </div>
 
         {/* Social icons selection */}
-        <div className='text-3xl flex items-center gap-4 text-gray-700'>
+        <div className='text-xl md:text-3xl flex items-center gap-2 md:gap-4 text-gray-700'>
             <FaInstagram/>
             <FaFacebookF/>
             <FaYoutube/>
